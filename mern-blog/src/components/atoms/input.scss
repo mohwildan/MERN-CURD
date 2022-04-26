@@ -1,0 +1,18 @@
+.input-wrapper{
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    .label{
+        font-size: 1em;
+    color: #2d2d2d;
+    margin: 0;
+    margin-bottom: 6px;
+}
+.input{
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 8px;
+    width: 100%;
+   box-sizing: border-box; 
+   padding: 20px;
+}
+}

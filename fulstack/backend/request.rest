@@ -1,0 +1,27 @@
+Get http://localhost:5000/users
+
+###
+Get http://localhost:5000/users/6266dbd3b66ceeb01a3bd5fd
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "siti",
+    "email": "siti@gmail.com",
+    "gender": "female"
+}
+
+###
+PATCH  http://localhost:5000/users/6266f8b31cbcf7ce862b38ee
+Content-Type: application/json
+
+{
+    "name": "jontor",
+    "email": "jontor@gmail.com",
+    "gender": "male"
+}
+
+###
+DELETE   http://localhost:5000/users/6266f8b31cbcf7ce862b38ee
+Content-Type: application/json

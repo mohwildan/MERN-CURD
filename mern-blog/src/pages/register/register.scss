@@ -1,0 +1,45 @@
+.body-register{
+    overflow: hidden;
+}
+.main-page {
+  display: flex;
+
+  .left {
+    flex: 3;
+    background-color: blue;
+    height: 100vh;
+    .bg-image-register {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .right {
+    flex: 1;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .title{
+        font-size: 1.2em;
+        font-weight: 700;
+        color: #2d2d2d;
+    }
+    .back-to-login{
+        color: #2d2d2d;
+        font-size: 1.2em;
+        opacity: .7;
+    }
+  }
+}
+
+@media(max-width:768px) {
+    .main-page{
+        align-items: center;
+        justify-content: center;
+        .left{
+            display: none;
+        }
+    }
+}
